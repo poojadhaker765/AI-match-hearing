@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board - Candidate</title>
+    <link rel="stylesheet" href="project-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="candidate-style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>JobBoard</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Find Jobs</a></li>
+            <li><a href="#">My Applications</a></li>
+            <li><a href="#">Saved Jobs</a></li>
+            <li><a href="#">Resume</a></li>
+        </ul>
+
+        <div class="nav-right">
+
+            <button class="notification">
+                <i class="fa-regular fa-bell"></i>
+            </button>
+
+            <button class="profile-btn">
+                <img src="https://i.pravatar.cc/40" alt="profile">
+                <span>Pooja</span>
+                <i class="fa-solid fa-angle-down"></i>
+            </button>
+
+        </div>
+
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+    <!-- Navbar End -->
+
+
+
+
+    <!-- Hero Section -->
+
+    <section class="dashboard-banner">
+
+        <div class="banner-content">
+            <h1>Welcome Back 👋</h1>
+            <p>Find your dream job with AI-powered recommendations.</p>
+        </div>
+
+        <button class="profile-btn">
+            Complete Profile
+        </button>
+
+    </section>
+
+    <!-- Statistics -->
+
+    <section class="dashboard-stats">
+
+        <div class="stats-card">
+            <h2>12</h2>
+            <p>Applied Jobs</p>
+        </div>
+
+        <div class="stats-card">
+            <h2>8</h2>
+            <p>Saved Jobs</p>
+        </div>
+
+        <div class="stats-card">
+            <h2>2</h2>
+            <p>Interviews</p>
+        </div>
+
+        <div class="stats-card">
+            <h2>85%</h2>
+            <p>Profile Score</p>
+        </div>
+
+    </section>
+
+    <!-- Search -->
+
+    <section class="job-search-section">
+
+        <input type="text" placeholder="Job Title">
+
+        <input type="text" placeholder="Location">
+
+        <select>
+            <option>Experience</option>
+            <option>Fresher</option>
+            <option>1-3 Years</option>
+            <option>3-5 Years</option>
+        </select>
+
+        <select>
+            <option>Job Type</option>
+            <option>Full Time</option>
+            <option>Internship</option>
+            <option>Remote</option>
+        </select>
+
+        <button class="search-btn">Search</button>
+
+    </section>
+
+    <!-- Recommended Jobs -->
+
+    <section class="recommended-job-section">
+
+        <h2 class="section-heading">Recommended Jobs</h2>
+
+        <div class="job-card-container">
+
+            <div class="recommended-job-card">
+                <h3>Frontend Developer</h3>
+                <p>Google</p>
+                <p>Jaipur • Full Time</p>
+                <button>View Details</button>
+            </div>
+
+            <div class="recommended-job-card">
+                <h3>React Developer</h3>
+                <p>Amazon</p>
+                <p>Remote</p>
+                <button>View Details</button>
+            </div>
+
+            <div class="recommended-job-card">
+                <h3>UI Developer</h3>
+                <p>Microsoft</p>
+                <p>Bangalore</p>
+                <button>View Details</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Applications -->
+
+    <section class="application-history">
+
+        <h2 class="section-heading">Recent Applications</h2>
+
+        <table class="application-table">
+
+            <tr>
+                <th>Company</th>
+                <th>Role</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>Google</td>
+                <td>Frontend Developer</td>
+                <td>Reviewed</td>
+            </tr>
+
+            <tr>
+                <td>Amazon</td>
+                <td>React Developer</td>
+                <td>Interview</td>
+            </tr>
+
+            <tr>
+                <td>Adobe</td>
+                <td>Web Developer</td>
+                <td>Applied</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- Interview -->
+
+    <section class="interview-section">
+
+        <h2 class="section-heading">Upcoming Interview</h2>
+
+        <div class="interview-card">
+            <h3>Amazon</h3>
+            <p>React Developer</p>
+            <p>18 July 2026</p>
+            <p>10:30 AM</p>
+        </div>
+
+    </section>
+
+    <!-- Skill Match -->
+
+    <section class="skill-match-section">
+
+        <h2 class="section-heading">Profile Match</h2>
+
+        <div class="progress-container">
+            <div class="progress-fill"></div>
+        </div>
+
+        <p class="progress-text">85% Complete</p>
+
+    </section>
+
+
+    <script src="project.js"></script>
+
+</body>
+
+</html>
